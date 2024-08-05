@@ -13,6 +13,7 @@ git config --global user.name "$INPUT_USER_NAME"
 git config --global user.email "$INPUT_USER_EMAIL"
 
 # install hexo env
+corepack enable
 yarn add hexo-cli
 yarn add hexo-deployer-git
 
